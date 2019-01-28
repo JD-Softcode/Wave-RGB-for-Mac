@@ -1,0 +1,16 @@
+# Xcode
+## Build generated
+build/
+DerivedData/
+xcuserdata/
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+# Swift Package Manager
+.build/
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+*.xcworkspace
+.DS_Store
+LogitechLED.framework/*
+Wave RGB/LogitechLED.framework/*
+Wave RGB/MyLightsLib/LogitechLED.framework/*
