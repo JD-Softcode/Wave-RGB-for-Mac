@@ -65,6 +65,7 @@ class AnimatedCircle: Hashable {
 													   width: radius * 2,
 													   height: radius * 2))
 			circPath.lineWidth = CGFloat(thickness)
+			// if need to reduce rendering cycles, introduce:  circPath.flatness = 20   // bigger = rougher
 			color.withAlphaComponent(CGFloat(opacity/100.0)).setStroke()
 			circPath.stroke()
 		}
