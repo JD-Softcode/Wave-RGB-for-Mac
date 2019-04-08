@@ -201,7 +201,7 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="aLM-8v-Xtw">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="lJf-hJ-LLe">
-                                            <real key="minimum" value="1"/>
+                                            <real key="minimum" value="0.0"/>
                                             <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
@@ -523,7 +523,7 @@ Gw
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="GhH-Re-t7J">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="78H-pD-Fmh">
-                                            <real key="minimum" value="1"/>
+                                            <real key="minimum" value="0.0"/>
                                             <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
@@ -787,7 +787,7 @@ Gw
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Cq3-VR-xDu">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="jaJ-nf-6ai">
-                                            <real key="minimum" value="1"/>
+                                            <real key="minimum" value="0.0"/>
                                             <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
@@ -1051,7 +1051,7 @@ Gw
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="eoa-32-Qbf">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="RVJ-uQ-3bD">
-                                            <real key="minimum" value="1"/>
+                                            <real key="minimum" value="0.0"/>
                                             <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
@@ -1315,7 +1315,7 @@ Gw
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="lcU-6o-pKz">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="XeZ-RB-YmR">
-                                            <real key="minimum" value="1"/>
+                                            <real key="minimum" value="0.0"/>
                                             <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
