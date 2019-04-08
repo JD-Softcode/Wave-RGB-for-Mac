@@ -9,7 +9,7 @@
 import Foundation
 import Cocoa
 
-let appVersionString = "v1.2.1"
+let appVersionString = "v1.3 TEST"
 
 let maxRings = 5
 

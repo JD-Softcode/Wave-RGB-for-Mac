@@ -158,6 +158,8 @@ class WaveRGBActions: NSObject {
 	func initializeAnimation(for theCanvas: artCanvasView) {
 		setAnimationInterval(secs: animationInterval)
 		drawCanvas = theCanvas
+		triggerSingleBackgroundUpdate(delay: animationInterval)
+			// needed because v1.3 code to stop light updates with no circles meant the keyboard doesn't change on app start
 	}
 	
 	func setAnimationInterval(secs newVal: Double) {
@@ -165,15 +167,31 @@ class WaveRGBActions: NSObject {
 		if animationTimer != nil {
 			animationTimer?.invalidate()
 		}
-		animationTimer = Timer.scheduledTimer(timeInterval: animationInterval, target: self, selector: #selector(animationStep), userInfo: nil, repeats: true)
+		animationTimer = Timer.scheduledTimer(timeInterval: animationInterval,
+											  target: self,
+											  selector: #selector(animationStep),
+											  userInfo: nil,
+											  repeats: true)
 	}
 	
 	@objc func animationStep(_ timer: Timer) {
 		theCircles.animate()
 		drawCanvas?.display()
-		updateKeyLights()
+		if theCircles.theCirclesStore.count > 0 {
+			updateKeyLights()		// to save processing cycles, only update key lights when changing.
+		}
 		//print("tick \(NSDate())")
 	}
+	
+	func triggerSingleBackgroundUpdate(delay theDelay: Double) {
+		Timer.scheduledTimer(timeInterval: theDelay,
+							 target: self,
+							 selector: #selector(updateKeyLights),
+							 userInfo: nil,
+							 repeats: false)
+	}
+
+	
 	
 	func drawAllCircles() {	//called within context of View:draw
 		if theCircles.drawAll() {
@@ -187,7 +205,7 @@ class WaveRGBActions: NSObject {
 		animationTimer?.invalidate()
 	}
 	
-	func updateKeyLights() {
+	@objc func updateKeyLights() {
 		let rep = drawCanvas!.bitmapImageRepForCachingDisplay(in: drawCanvas!.bounds)!
 		drawCanvas?.cacheDisplay(in: (drawCanvas?.bounds)!, to: rep)
 		for i in 0...keysCount-1 {

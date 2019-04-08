@@ -60,14 +60,17 @@ class AnimatedCircle: Hashable {
 	
 	func drawACircle() {  //called within context of View:draw
 		if currentLife > birthDelay {
+			let diameter = abs (radius * 2)
+					// some shrinking circles create negative radius on last frame, and NSBezierPath/lineWidth will complain
 			let circPath = NSBezierPath(ovalIn: NSRect(x: Double(center.x) - radius,
 													   y: Double(center.y) - radius,
-													   width: radius * 2,
-													   height: radius * 2))
-			circPath.lineWidth = CGFloat(thickness)
+													   width: diameter,
+													   height: diameter))
+			circPath.lineWidth = CGFloat(thickness <= diameter ? thickness : diameter)
+				//must limit stroke width to 2x radius to prevent hole in center due to drawing's destructive overlap
 			// if need to reduce rendering cycles, introduce:  circPath.flatness = 20   // bigger = rougher
 			color.withAlphaComponent(CGFloat(opacity/100.0)).setStroke()
-			circPath.stroke()
+			circPath.stroke()		// note that stroke straddles the path with a given thickness, does not keep inside it
 		}
 	}
 	

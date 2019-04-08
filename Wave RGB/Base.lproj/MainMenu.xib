@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -144,7 +144,6 @@
                         </view>
                         <color key="borderColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="fillColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <font key="titleFont" metaFont="smallSystem"/>
                     </box>
                 </subviews>
             </view>
@@ -179,7 +178,7 @@
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Loh-Ru-yI5">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="MYK-NJ-7Nf">
                                             <real key="minimum" value="1"/>
-                                            <real key="maximum" value="200"/>
+                                            <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -203,7 +202,7 @@
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="aLM-8v-Xtw">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="lJf-hJ-LLe">
                                             <real key="minimum" value="1"/>
-                                            <real key="maximum" value="100"/>
+                                            <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -501,7 +500,7 @@ Gw
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="dxp-TZ-gVt">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="6sO-KH-fFh">
                                             <real key="minimum" value="1"/>
-                                            <real key="maximum" value="200"/>
+                                            <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -525,7 +524,7 @@ Gw
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="GhH-Re-t7J">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="78H-pD-Fmh">
                                             <real key="minimum" value="1"/>
-                                            <real key="maximum" value="100"/>
+                                            <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -765,7 +764,7 @@ Gw
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="fjE-bw-eWW">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="KTs-9h-dET">
                                             <real key="minimum" value="1"/>
-                                            <real key="maximum" value="200"/>
+                                            <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -789,7 +788,7 @@ Gw
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Cq3-VR-xDu">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="jaJ-nf-6ai">
                                             <real key="minimum" value="1"/>
-                                            <real key="maximum" value="100"/>
+                                            <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1029,7 +1028,7 @@ Gw
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="WV5-gT-cYP">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="WE2-bR-0Jr">
                                             <real key="minimum" value="1"/>
-                                            <real key="maximum" value="200"/>
+                                            <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1053,7 +1052,7 @@ Gw
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="eoa-32-Qbf">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="RVJ-uQ-3bD">
                                             <real key="minimum" value="1"/>
-                                            <real key="maximum" value="100"/>
+                                            <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1293,7 +1292,7 @@ Gw
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="LIv-IU-9J4">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="2AM-W1-p3H">
                                             <real key="minimum" value="1"/>
-                                            <real key="maximum" value="200"/>
+                                            <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1317,7 +1316,7 @@ Gw
                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="lcU-6o-pKz">
                                         <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="XeZ-RB-YmR">
                                             <real key="minimum" value="1"/>
-                                            <real key="maximum" value="100"/>
+                                            <real key="maximum" value="300"/>
                                         </numberFormatter>
                                         <font key="font" metaFont="cellTitle"/>
                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>

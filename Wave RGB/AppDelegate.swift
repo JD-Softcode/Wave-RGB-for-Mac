@@ -57,7 +57,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		theApp.initializeAnimation(for: artCanvas)
 		theApp.loadPreferences(interface: self)
 	}
-	
+
 	@IBAction func closePermSheet(_ sender: NSButton) {
 		window.endSheet(permissionSheet)
 	}
