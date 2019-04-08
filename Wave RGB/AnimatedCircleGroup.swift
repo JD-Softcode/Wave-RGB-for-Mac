@@ -12,6 +12,7 @@ import Cocoa
 class AnimatedCircleGroup {
 	
 	var theCirclesStore = Set<AnimatedCircle>()
+	var rememberAnimationJustEnded = false
 	
 	func add(circle newCircle: AnimatedCircle) {
 		theCirclesStore.insert(newCircle)
@@ -24,6 +25,9 @@ class AnimatedCircleGroup {
 				if (circ.animateCircle() == AnimatedCircle.AnimationResult.animationDone) {
 					theCirclesStore.remove(circ)
 				}
+			}
+			if (theCirclesStore.count == 0) {
+				rememberAnimationJustEnded = true
 			}
 		}
 	}
@@ -39,4 +43,15 @@ class AnimatedCircleGroup {
 		}
 	}
 	
+	func animationInProgess() -> Bool {
+		if theCirclesStore.count > 0 {
+			return true						// some circles are drawing
+		}
+		if rememberAnimationJustEnded {
+			rememberAnimationJustEnded = false
+			return true						// that last frame needs to be overwritten
+		} else {
+			return false
+		}
+	}
 }

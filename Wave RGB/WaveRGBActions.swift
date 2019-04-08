@@ -177,7 +177,7 @@ class WaveRGBActions: NSObject {
 	@objc func animationStep(_ timer: Timer) {
 		theCircles.animate()
 		drawCanvas?.display()
-		if theCircles.theCirclesStore.count > 0 {
+		if theCircles.animationInProgess() {
 			updateKeyLights()		// to save processing cycles, only update key lights when changing.
 		}
 		//print("tick \(NSDate())")
