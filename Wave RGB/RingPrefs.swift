@@ -9,7 +9,8 @@
 import Foundation
 import Cocoa
 
-let appVersionString = "v1.3 TEST"
+let appVersionString = "v\(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String)"
+//let appVersionString = "v1.3"
 
 let maxRings = 5
 

@@ -37,7 +37,7 @@ class WaveRGBActions: NSObject {
 			var vers2:Int32 = 0
 			var vers3:Int32 = 0
 			jLogiLedGetSdkVersion(&vers1, &vers2, &vers3)
-			return "Connected to LGS version \(vers1).\(vers2).\(vers3)."
+			return "Connected to LGS SDK version \(vers1).\(vers2).\(vers3)."
 		} else {
 			return "Failed to connect to LGS."
 		}
