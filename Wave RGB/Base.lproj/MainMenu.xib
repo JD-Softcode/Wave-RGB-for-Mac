@@ -191,7 +191,7 @@
                                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" tag="20" translatesAutoresizingMaskIntoConstraints="NO" id="fmj-GU-57Z" userLabel="lifetimeBoxStepper">
                                     <rect key="frame" x="177" y="212" width="19" height="27"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="200" doubleValue="15" id="Sx7-NQ-Pjz"/>
+                                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="300" doubleValue="15" id="Sx7-NQ-Pjz"/>
                                     <connections>
                                         <action selector="takeIntValueFrom:" target="rhg-gf-Sho" id="u2a-Yg-I6g"/>
                                     </connections>
@@ -215,7 +215,7 @@
                                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" tag="21" translatesAutoresizingMaskIntoConstraints="NO" id="PfQ-HS-RQg" userLabel="delayBoxStepper">
                                     <rect key="frame" x="177" y="185" width="19" height="27"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="VUp-rD-8D1"/>
+                                    <stepperCell key="cell" continuous="YES" alignment="left" maxValue="300" id="VUp-rD-8D1"/>
                                     <connections>
                                         <action selector="takeIntValueFrom:" target="pya-7c-aBr" id="jeX-1q-bOr"/>
                                     </connections>
@@ -513,7 +513,7 @@ Gw
                                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" tag="20" translatesAutoresizingMaskIntoConstraints="NO" id="N71-gl-yGP" userLabel="lifetimeBoxStepper">
                                     <rect key="frame" x="177" y="212" width="19" height="27"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="200" doubleValue="15" id="VP7-xF-4ZB"/>
+                                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="300" doubleValue="15" id="VP7-xF-4ZB"/>
                                     <connections>
                                         <action selector="takeIntValueFrom:" target="NJZ-S6-b2m" id="p68-Q8-ThG"/>
                                     </connections>
@@ -537,7 +537,7 @@ Gw
                                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" tag="21" translatesAutoresizingMaskIntoConstraints="NO" id="Ccp-5z-1M7" userLabel="delayBoxStepper">
                                     <rect key="frame" x="177" y="185" width="19" height="27"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="KL2-Jr-Xp3"/>
+                                    <stepperCell key="cell" continuous="YES" alignment="left" maxValue="300" id="KL2-Jr-Xp3"/>
                                     <connections>
                                         <action selector="takeIntValueFrom:" target="xSu-KR-gci" id="KNy-Ss-2RT"/>
                                     </connections>
@@ -777,7 +777,7 @@ Gw
                                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" tag="20" translatesAutoresizingMaskIntoConstraints="NO" id="aDy-Pb-fLF" userLabel="lifetimeBoxStepper">
                                     <rect key="frame" x="177" y="212" width="19" height="27"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="200" doubleValue="15" id="bL7-rI-Ove"/>
+                                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="300" doubleValue="15" id="bL7-rI-Ove"/>
                                     <connections>
                                         <action selector="takeIntValueFrom:" target="P1c-vT-9ao" id="YjH-ZI-GqI"/>
                                     </connections>
@@ -801,7 +801,7 @@ Gw
                                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" tag="21" translatesAutoresizingMaskIntoConstraints="NO" id="0rK-1O-uAh" userLabel="delayBoxStepper">
                                     <rect key="frame" x="177" y="185" width="19" height="27"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="SV8-Wi-Lmr"/>
+                                    <stepperCell key="cell" continuous="YES" alignment="left" maxValue="300" id="SV8-Wi-Lmr"/>
                                     <connections>
                                         <action selector="takeIntValueFrom:" target="Uni-fH-0nV" id="MKf-c3-fBy"/>
                                     </connections>
@@ -1041,7 +1041,7 @@ Gw
                                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" tag="20" translatesAutoresizingMaskIntoConstraints="NO" id="jze-9m-tQF" userLabel="lifetimeBoxStepper">
                                     <rect key="frame" x="177" y="212" width="19" height="27"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="200" doubleValue="15" id="FO0-5O-ePR"/>
+                                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="300" doubleValue="15" id="FO0-5O-ePR"/>
                                     <connections>
                                         <action selector="takeIntValueFrom:" target="Fz9-HN-9vt" id="2w6-7B-d1w"/>
                                     </connections>
@@ -1065,7 +1065,7 @@ Gw
                                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" tag="21" translatesAutoresizingMaskIntoConstraints="NO" id="e21-XU-jrx" userLabel="delayBoxStepper">
                                     <rect key="frame" x="177" y="185" width="19" height="27"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="HQF-1T-8sy"/>
+                                    <stepperCell key="cell" continuous="YES" alignment="left" maxValue="300" id="HQF-1T-8sy"/>
                                     <connections>
                                         <action selector="takeIntValueFrom:" target="QWB-we-T4H" id="bnW-Xu-yy0"/>
                                     </connections>
@@ -1305,7 +1305,7 @@ Gw
                                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" tag="20" translatesAutoresizingMaskIntoConstraints="NO" id="NNj-EC-2cr" userLabel="lifetimeBoxStepper">
                                     <rect key="frame" x="177" y="212" width="19" height="27"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="200" doubleValue="15" id="VBD-MJ-ZJh"/>
+                                    <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="300" doubleValue="15" id="VBD-MJ-ZJh"/>
                                     <connections>
                                         <action selector="takeIntValueFrom:" target="Nb6-S3-cE9" id="pKi-fq-364"/>
                                     </connections>
@@ -1329,7 +1329,7 @@ Gw
                                 <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" tag="21" translatesAutoresizingMaskIntoConstraints="NO" id="8Yi-jr-dNT" userLabel="delayBoxStepper">
                                     <rect key="frame" x="177" y="185" width="19" height="27"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="Wmx-6q-5Jn"/>
+                                    <stepperCell key="cell" continuous="YES" alignment="left" maxValue="300" id="Wmx-6q-5Jn"/>
                                     <connections>
                                         <action selector="takeIntValueFrom:" target="2Je-BO-cDn" id="UIR-Ki-x4o"/>
                                     </connections>
